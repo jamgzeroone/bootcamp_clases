@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+    background-color: rgba(60, 151, 182, 0.911);
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    /* background-color: rgba(16, 47, 58, 0.911) */
+}
+
+h1 {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.main {
+    margin: 10px;
+    text-align: center;
+}
+
+.selector {
+    text-align: center;
+}
+
+.inputs {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+    color: rgba(4, 30, 31, 0.911);
+}
