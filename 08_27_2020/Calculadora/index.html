@@ -14,6 +14,7 @@
             <h1>Calculadora</h1>
         </div>
     </header>
+    <script src="./assets/js/sw.js"></script>
     <section>
         <div class="container">
             <form action="">
@@ -25,12 +26,14 @@
                 </div>
                 <div class="selector">
                     <h4><strong>Operación a realizar</strong></h4>
-                    <button type="submit">Sumar</button>
-                    <button type="submit">Restar</button>
-                    <button type="submit">Multiplicar</button>
-                    <button type="submit">Dividir</button>
+                    <button type="submit" id="sum">Sumar</button>
+                    <button type="submit" id="res">Restar</button>
+                    <button type="submit" id="mul">Multiplicar</button>
+                    <button type="submit" id="div">Dividir</button>
                 </div>
-                <div><input type="hidden" name="resultado" id="result"></div>
+                <div>
+                    <h2 id="resultado"></h2>
+                </div>
             </form>
         </div>
     </section>
